@@ -17,35 +17,29 @@ import {
   TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, XIcon, instagram } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Rishi Agarwal",
+  initials: "RA",
+  location: "Mumbai, India",
+  locationLink: "https://maps.app.goo.gl/XSgSp6gNPUjLzU8s8",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
-  summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Driven by user empathy and business acumen, I design solutions that unlock value for both users and organizations.",
+  summary:"They say curiosity killed the cat, but for me, it sparked a fire. Not of destruction, mind you, but of creation. I love solving problems and making things people love. I'm a designer who brings ideas to life, simply and creatively. From business to service design, I can tell your brand's story with wit and understanding. Let's chat and see how I can make your vision a reality!",
+  avatarUrl: "https://iamrishi.com/wp-content/uploads/2024/02/Rishi_HKU_Avatar.jpg",
+  personalWebsiteUrl: "https://iamrishi.com",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "contactrishiag@gmail.com",
+    tel: "+917076267167",
     social: [
       {
-        name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
-        icon: GitHubIcon,
-      },
-      {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/rishiagarwalslg//",
         icon: LinkedInIcon,
       },
       {
-        name: "X",
+        name: "Instagram",
         url: "https://x.com/BartoszJarocki",
         icon: XIcon,
       },
@@ -53,78 +47,95 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Atlas Skilltech University",
+      degree: "Bachelor's of Design - Strategic Design Management",
+      start: "2021",
+      end: "2025",
+    },
+	{
+      school: "Don Bosco School Siliguri",
+      degree: "10+2(Commerce)",
+      start: "2009",
+      end: "2021",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      company: "Ministry of Infrastructure and Water Management - Netherlands",
+      link: "https://www.government.nl/ministries/ministry-of-infrastructure-and-water-management",
+      badges: ["OnSite"],
+      title: "Experience Designer",
       logo: ParabolLogo,
-      start: "2021",
+      start: "2024",
       end: "2024",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "I worked on Plofsluis, a UNESCO World Heritage Site that was established during WWII but is little known and rarely visited. We began brainstorming and came up with ideas to make it more visible and experienceable; the customer appreciated the ideas and plans to implement them in the following year.",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
+      company: "Red in the White",
+      link: "https://www.instagram.com/redinthewhite/?hl=en",
       badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      title: "Motion Designer",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      start: "2023",
+      end: "2024",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Helped them with creating motion design videos including but not limited to Demo Videos, Promotional Videos for clients like Tartan AI, MirrAR and Flexiloans using After Effects",
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
+      company: "Meet Interiors",
+      link: "https://www.instagram.com/meetinteriors.hq/",
+      badges: ["On-Site"],
+      title: "Founder",
       logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      start: "2021",
+      end: "2023",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "I developed a comprehensive directory of interior designers, providing a platform that connects designers with clients while also offering tools to manage their portfolios. My role involved leveraging technology to streamline the process of connecting designers with potential clients, creating a user-friendly platform that simplifies the search for interior design services. Currently paused due to time constraints"
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
+      company: "McCann Worldgroup",
+      link: "https://www.mccannworldgroup.com/",
+      badges: ["Remote"],
+      title: "Graphic Designer",
       logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      start: "2022",
+      end: "2022",
+      description: "Helped in designing and delivering social media content for brands like Kotak Mahindra Bank, Jio-BP and Emami",
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Service Design",
+    "Business Design",
+    "After Effects",
+    "Final Cut Pro",
+    "Photoshop",
+    "Illustrator",
+    "User Experience Design",
   ],
   projects: [
-    {
-      title: "Consultly",
+{
+      title: "Plofsluis",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Experience Design",
+        "Client Project",
+        "On-Site",
       ],
-      description: "A platform to build and grow your online business",
+      description: "Helped make this UNESCO recognised heritage monument a more visible and experienceable monument for people all around the world",
+      logo: ConsultlyLogo,
+      link: {
+        label: "consultly.com",
+        href: "https://consultly.com/",
+      },
+    },    
+{
+      title: "Isvaera",
+      techStack: [
+        "Business Design",
+        "Client Project",
+        "Non-Profit",
+      ],
+      description: "Helped them solve business challenges like employee churn and making their product customisation process easier",
       logo: ConsultlyLogo,
       link: {
         label: "consultly.com",
@@ -132,147 +143,49 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "FurniCare",
+      techStack: ["Service Design", "Academic"],
       description:
-        "Browser extension that records everything happening in a web application",
+        "Established a service to assist individuals in taking better care of their furniture; many are clinging to cleaning techniques from the past, even though furniture has evolved greatly in that time.",
       logo: MonitoLogo,
       link: {
         label: "monito.dev",
         href: "https://monito.dev/",
       },
     },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+{
+      title: "FurniCare",
+      techStack: ["Service Design", "Academic"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "Established a service to assist individuals in taking better care of their furniture; many are clinging to cleaning techniques from the past, even though furniture has evolved greatly in that time.",
+      logo: MonitoLogo,
+      link: {
+        label: "monito.dev",
+        href: "https://monito.dev/",
+      },
+    },
+{
+      title: "Meet Interiors",
+      techStack: ["Side Project", "Service Design"],
+      description:
+        "Found a gap in the Indian Market where there was not rusted platform for people to find interior designer and relied on word of mouth, tried solving it by creating a service which was free for the designers and the visitors",
+      logo: JarockiMeLogo,
+      link: {
+        label: "github.com",
+        href: "https://jarocki.me/",
+      },
+    },    
+{
+      title: "SOLHFagito",
+      techStack: ["Client Project", "Graphic Design"],
+      description:
+        "Helped this healthy drink brand with the social media content in collaboration with a team of designers through a agency called Byooooob",
       logo: JarockiMeLogo,
       link: {
         label: "github.com",
         href: "https://jarocki.me/",
       },
     },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
+    
   ],
 } as const;
