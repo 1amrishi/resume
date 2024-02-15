@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Driven by user empathy and business acumen, I design solutions that unlock value for both users and organizations.",
   summary:"They say curiosity killed the cat, but for me, it sparked a fire. Not of destruction, mind you, but of creation. I love solving problems and making things people love. I'm a designer who brings ideas to life, simply and creatively. From business to service design, I can tell your brand's story with wit and understanding. Let's chat and see how I can make your vision a reality!",
-  avatarUrl: "https://iamrishi.com/wp-content/uploads/2024/02/Rishi_HKU_Avatar.jpg",
+  avatarUrl: "https://github.com/1amrishi/resume/blob/main/src/images/logos/Rishi_Avatar.jpg?raw=true",
   personalWebsiteUrl: "https://iamrishi.com",
   contact: {
     email: "contactrishiag@gmail.com",
