@@ -40,7 +40,7 @@ export const RESUME_DATA = {
       },
       {
         name: "Instagram",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://twitter.com/rishi_4999",
         icon: XIcon,
       },
     ],
