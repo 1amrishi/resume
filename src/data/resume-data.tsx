@@ -25,8 +25,8 @@ export const RESUME_DATA = {
   location: "Mumbai, India",
   locationLink: "https://maps.app.goo.gl/XSgSp6gNPUjLzU8s8",
   about:
-    "Driven by user empathy and business acumen, I design solutions that unlock value for both users and organizations.",
-  summary:"They say curiosity killed the cat, but for me, it sparked a fire. Not of destruction, mind you, but of creation. I love solving problems and making things people love. I'm a designer who brings ideas to life, simply and creatively. From business to service design, I can tell your brand's story with wit and understanding. Let's chat and see how I can make your vision a reality!",
+    "Strategic Designer",
+  summary:"They say curiosity killed the cat, but for me, it sparked a fire. Not of destruction, mind you, but of creation. I'm a designer who brings ideas to life, simply and creatively. From business to service design, I can tell your brand's story with wit and understanding. Let's chat and see how I can make your vision a reality!",
   avatarUrl: "https://github.com/1amrishi/resume/blob/main/src/images/logos/Rishi_Avatar.jpg?raw=true",
   personalWebsiteUrl: "https://iamrishi.com",
   contact: {
@@ -143,17 +143,6 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "FurniCare",
-      techStack: ["Service Design", "Academic"],
-      description:
-        "Established a service to assist individuals in taking better care of their furniture; many are clinging to cleaning techniques from the past, even though furniture has evolved greatly in that time.",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-{
       title: "FurniCare",
       techStack: ["Service Design", "Academic"],
       description:
