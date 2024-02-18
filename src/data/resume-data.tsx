@@ -61,7 +61,7 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Ministry of Infrastructure and Water Management-Netherlands",
+      company: "Ministry of Infrastructure and Water Management - Netherlands",
       link: "https://www.government.nl/ministries/ministry-of-infrastructure-and-water-management",
       badges: ["OnSite"],
       title: "Experience Designer",
