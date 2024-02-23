@@ -41,7 +41,7 @@ export const RESUME_DATA = {
       {
         name: "Instagram",
         url: "https://twitter.com/rishi_4999",
-        icon: "https://www.svgviewer.dev/s/8da6539x",
+        icon: XIcon,
       },
     ],
   },
