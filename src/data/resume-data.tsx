@@ -17,7 +17,7 @@ import {
   TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon, Insta, } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, XIcon, Insta.js, Insta.svg } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Rishi Agarwal",
@@ -41,7 +41,7 @@ export const RESUME_DATA = {
       {
         name: "Instagram",
         url: "https://twitter.com/rishi_4999",
-        icon: Insta,
+        icon: Insta.svg,
       },
     ],
   },
