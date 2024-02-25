@@ -124,8 +124,8 @@ export const RESUME_DATA = {
       description: "Helped make this UNESCO recognised heritage monument a more visible and experienceable monument for people all around the world",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "rishiag.com",
+        href: "https://rishiag.com/project/plofsluis",
       },
     },    
 {
@@ -138,8 +138,8 @@ export const RESUME_DATA = {
       description: "Helped them solve business challenges like employee churn and making their product customisation process easier",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "rishiag.com",
+        href: "https://rishiag.com/project/isvaera",
       },
     },
     {
