@@ -62,7 +62,7 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Ministry of Infrastructure and Water Management - Netherlands",
-      link: "https://www.government.nl/ministries/ministry-of-infrastructure-and-water-management",
+      link: "https://rishiag.com/project/plofsluis",
       badges: ["OnSite"],
       title: "Experience Designer",
       logo: ParabolLogo,
@@ -149,8 +149,8 @@ export const RESUME_DATA = {
         "Established a service to assist individuals in taking better care of their furniture; many are clinging to cleaning techniques from the past, even though furniture has evolved greatly in that time.",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "rishiag.com",
+        href: "https://rishiag.com/project/furnicare",
       },
     },
 {
@@ -160,8 +160,8 @@ export const RESUME_DATA = {
         "Found a gap in the Indian Market where there was not rusted platform for people to find interior designer and relied on word of mouth, tried solving it by creating a service which was free for the designers and the visitors",
       logo: JarockiMeLogo,
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "rishiag.com",
+        href: "https://rishiag.com/",
       },
     },    
 {
@@ -171,8 +171,8 @@ export const RESUME_DATA = {
         "Helped this healthy drink brand with the social media content in collaboration with a team of designers through a agency called Byooooob",
       logo: JarockiMeLogo,
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "behance.com",
+        href: "https://www.behance.net/gallery/159926869/SOLH-FAGITO-Graphic-Design",
       },
     },
     
