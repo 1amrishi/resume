@@ -28,9 +28,9 @@ export const RESUME_DATA = {
     "Strategic Designer",
   summary:"They say curiosity killed the cat, but for me, it sparked a fire. Not of destruction, mind you, but of creation. I'm a designer who brings ideas to life, simply and creatively. From business to service design, I can tell your brand's story with wit and understanding. Let's chat and see how I can make your vision a reality!",
   avatarUrl: "https://github.com/1amrishi/resume/blob/main/src/images/logos/Rishi_Avatar.jpg?raw=true",
-  personalWebsiteUrl: "https://iamrishi.com",
+  personalWebsiteUrl: "https://rishiag.com",
   contact: {
-    email: "contactrishiag@gmail.com",
+    email: "hello@rishiag.com",
     tel: "+917076267167",
     social: [
       {
