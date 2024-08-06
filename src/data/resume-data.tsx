@@ -61,6 +61,17 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Runtime Solutions Pvt. Ltd.",
+      link: "https://rishiag.com/project/plofsluis",
+      badges: ["OnSite"],
+      title: "Account Manager",
+      logo: ParabolLogo,
+      start: "June 2024",
+      end: "July 2024",
+      description:
+        "During my tenure at Runtime Solutions, I spearheaded the creation of compelling pitch decks for potential clients across diverse industries, including Pharmaceuticals, Food & Beverage, and Finance. A key achievement was overseeing a comprehensive website development project for a prominent Dubai-based real estate firm. This role allowed me to demonstrate my versatility in adapting communication strategies for various sectors and stakeholders, while collaborating with cross-functional teams to deliver high-impact solutions tailored to client needs.",
+    },
+	  {
       company: "Ministry of Infrastructure and Water Management - Netherlands",
       link: "https://rishiag.com/project/plofsluis",
       badges: ["OnSite"],
