@@ -126,6 +126,20 @@ export const RESUME_DATA = {
   ],
   projects: [
 {
+      title: "Bombay Print Lab",
+      techStack: [
+        "3D Printing",
+        "Product Marketing",
+        "Bootstrapped",
+      ],
+      description: "Founder and CEO of Bombay Print Lab, a bootstrapped 3D printing service in Mumbai. Successfully scaled operations to 3 machines and achieved 3+ lakhs in annual revenue",
+      logo: ConsultlyLogo,
+      link: {
+        label: "https://bombayprintlab.com",
+        href: "https://bombayprintlab.com",
+      },
+    },  
+	  {
       title: "Plofsluis",
       techStack: [
         "Experience Design",
