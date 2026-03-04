@@ -26,7 +26,7 @@ export const RESUME_DATA = {
   locationLink: "https://maps.app.goo.gl/XSgSp6gNPUjLzU8s8",
   about:
     "Service Designer | Business Strategist | Founder",
-  summary:"Entrepreneurial designer bridging business strategy and user experience through service design. Built revenue-generating ventures (₹23L+ annual) and led service interventions for UNESCO heritage sites. I design end-to-end service ecosystems — not just interfaces. Currently seeking opportunities in Dubai to apply Strategic Design Management expertise.",
+  summary:"Entrepreneurial designer bridging business strategy and user experience through service design. Built revenue-generating ventures (₹23L+ annual) and led service interventions for UNESCO heritage sites. I design end-to-end service ecosystems — not just interfaces. Seeking opportunities to apply strategic design management expertise in high-impact environments.",
   avatarUrl: "https://github.com/1amrishi/resume/blob/main/src/images/logos/Rishi_Avatar.jpg?raw=true",
   personalWebsiteUrl: "https://rishiag.com",
   contact: {
