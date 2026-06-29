@@ -15,7 +15,7 @@ export const RESUME_DATA_YELLOW = {
   locationLink: "https://maps.app.goo.gl/XSgSp6gNPUjLzU8s8",
   about: "AI Systems Builder | Agentic Workflows | Founder",
   summary:
-    "I build with Claude, not just use it. Founded Bombay Print Lab (₹23L+ annual revenue) where I've shipped Bombay-Terminal (internal order automation, 40% overhead reduction), an AI-assisted 3D customisation pipeline, and a live AI image generation product using Gemini and Tripo AI — all in production. Currently at Accenture working on LLM-based AI agent systems at scale. Previously at Landor (global brand strategy) and McCann Worldgroup (creative content for Kotak, Jio-BP, Emami) — I understand creative agency work from the inside. My background in Strategic Design Management means I build things that are technically solid and experientially intentional. I learn new tools before they're mainstream. I ship.",
+    "I build with Claude, not just use it. Founded Bombay Print Lab (₹23L+ annual revenue) where I've shipped Bombay-Terminal (internal order automation, 40% overhead reduction), an AI-assisted 3D customisation pipeline, and a live AI image generation product using Gemini and Tripo AI — all in production. Currently at Accenture working on LLM-based AI agent systems at scale. I self-host and run agentic platforms (OpenClaw, Hermes by Nous Research) on a VPS for daily business and codebase management. Previously at Landor (global brand strategy) and McCann Worldgroup (creative content for Kotak, Jio-BP, Emami) — I understand creative agency work from the inside. My background in Strategic Design Management means I build things that are technically solid and experientially intentional. I learn new tools before they're mainstream. I ship.",
   avatarUrl:
     "https://github.com/1amrishi/resume/blob/main/src/images/logos/Rishi_Avatar.jpg?raw=true",
   personalWebsiteUrl: "https://rishiag.com",
@@ -166,6 +166,8 @@ export const RESUME_DATA_YELLOW = {
     "Anthropic APIs",
     "MCP (Model Context Protocol)",
     "Agentic AI Systems",
+    "OpenClaw (self-hosted agent OS)",
+    "Hermes Agent (Nous Research)",
     "Prompt Engineering",
     "AI Workflow Orchestration",
     "Multi-model Pipelines",
@@ -175,6 +177,7 @@ export const RESUME_DATA_YELLOW = {
     "Next.js / React / TypeScript",
     "Python / FastAPI",
     "Vercel / GitHub / Git",
+    "VPS Deployment",
     "Supabase",
     "Shopify & E-commerce Automation",
     "Service Design",

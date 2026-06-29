@@ -15,7 +15,7 @@ export const RESUME_DATA_AI = {
   locationLink: "https://maps.app.goo.gl/XSgSp6gNPUjLzU8s8",
   about: "AI Systems Builder | Agentic Workflows | Founder",
   summary:
-    "I build with Claude, not just use it. Founded Bombay Print Lab (₹23L+ annual revenue) where I've shipped Bombay-Terminal (internal ops automation, 40% overhead reduction), an AI-assisted STL customisation pipeline, and a live AI image generation product — all in production. Currently at Accenture working on LLM-based AI agent systems at scale. Background in Strategic Design Management means I build things that are both technically solid and experientially intentional. I reach for new tools before they're mainstream and I ship.",
+    "I build with Claude, not just use it. Founded Bombay Print Lab (₹23L+ annual revenue) where I've shipped Bombay-Terminal (internal ops automation, 40% overhead reduction), an AI-assisted STL customisation pipeline, and a live AI image generation product — all in production. Currently at Accenture working on LLM-based AI agent systems at scale. I self-host and run agentic platforms (OpenClaw, Hermes by Nous Research) on a VPS for daily business and codebase management — not as experiments, but as actual infrastructure. Background in Strategic Design Management means I build things that are both technically solid and experientially intentional. I reach for new tools before they're mainstream and I ship.",
   avatarUrl:
     "https://github.com/1amrishi/resume/blob/main/src/images/logos/Rishi_Avatar.jpg?raw=true",
   personalWebsiteUrl: "https://rishiag.com",
@@ -122,6 +122,8 @@ export const RESUME_DATA_AI = {
     "Anthropic APIs",
     "MCP (Model Context Protocol)",
     "Agentic AI Systems",
+    "OpenClaw (self-hosted agent OS)",
+    "Hermes Agent (Nous Research)",
     "Prompt Engineering",
     "AI Workflow Orchestration",
     "Gemini / Image Generation",
@@ -130,6 +132,7 @@ export const RESUME_DATA_AI = {
     "Next.js / TypeScript",
     "Python / FastAPI",
     "Supabase",
+    "VPS Deployment",
     "Vercel / GitHub / Git",
     "Shopify & E-commerce Automation",
     "Service Design",
