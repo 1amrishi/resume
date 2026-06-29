@@ -202,9 +202,9 @@ export const RESUME_DATA_YELLOW = {
     },
     {
       title: "AI Figurine Platform",
-      techStack: ["GPT-Image-1", "Gemini", "OpenRouter", "Tripo AI", "Next.js", "Supabase"],
+      techStack: ["Gemini", "OpenRouter", "Tripo AI", "Next.js", "Supabase"],
       description:
-        "Customer ordering platform + multi-model AI pipeline for custom 3D-printed figurines. Photo upload → AI generation → 3D mesh → order. Automated photo validator with hard-fail/soft-warning logic. Source is private.",
+        "Customer ordering platform + AI pipeline for custom 3D-printed figurines. Photo upload → AI image generation (Gemini via OpenRouter) → 3D mesh (Tripo AI) → order. Includes custom photo validation and admin approval workflow. Source is private.",
       logo: ConsultlyLogo,
       link: {
         label: "github.com/1amrishi",

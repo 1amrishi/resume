@@ -141,9 +141,9 @@ export const RESUME_DATA_AI = {
     },
     {
       title: "AI Figurine Pipeline",
-      techStack: ["GPT-Image-1", "Gemini", "OpenRouter", "Tripo AI", "In Development"],
+      techStack: ["Gemini", "OpenRouter", "Tripo AI", "In Development"],
       description:
-        "AI image-generation product pipeline for photo-to-3D-mesh generation. Includes a custom browser-based image generation tool and an automated photo validation system with hard-fail/soft-warning logic.",
+        "AI image-generation product pipeline for custom 3D-printed figurines. Photo upload → Gemini image generation (via OpenRouter) → 3D mesh (Tripo AI). Includes custom photo validation and a browser-based generation tool.",
       logo: ConsultlyLogo,
       link: {
         label: "bombayprintlab.com",
