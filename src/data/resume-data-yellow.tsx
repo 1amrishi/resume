@@ -15,7 +15,7 @@ export const RESUME_DATA_YELLOW = {
   locationLink: "https://maps.app.goo.gl/XSgSp6gNPUjLzU8s8",
   about: "AI Systems Builder | Agentic Workflows | Founder",
   summary:
-    "I build with Claude, not just use it. Founded Bombay Print Lab (₹23L+ annual revenue) where I've shipped Bombay-Terminal (internal order automation, 40% overhead reduction), an AI-assisted 3D customisation pipeline, and a live multi-model image generation product using GPT-Image-1, Gemini, and Tripo AI — all in production. Currently at Accenture working on LLM-based AI agent systems at scale. Previously at Landor (global brand strategy) and McCann Worldgroup (creative content for Kotak, Jio-BP, Emami) — I understand creative agency work from the inside. My background in Strategic Design Management means I build things that are technically solid and experientially intentional. I learn new tools before they're mainstream. I ship.",
+    "I build with Claude, not just use it. Founded Bombay Print Lab (₹23L+ annual revenue) where I've shipped Bombay-Terminal (internal order automation, 40% overhead reduction), an AI-assisted 3D customisation pipeline, and a live AI image generation product using Gemini and Tripo AI — all in production. Currently at Accenture working on LLM-based AI agent systems at scale. Previously at Landor (global brand strategy) and McCann Worldgroup (creative content for Kotak, Jio-BP, Emami) — I understand creative agency work from the inside. My background in Strategic Design Management means I build things that are technically solid and experientially intentional. I learn new tools before they're mainstream. I ship.",
   avatarUrl:
     "https://github.com/1amrishi/resume/blob/main/src/images/logos/Rishi_Avatar.jpg?raw=true",
   personalWebsiteUrl: "https://rishiag.com",
@@ -70,7 +70,7 @@ export const RESUME_DATA_YELLOW = {
       start: "Mar 2024",
       end: "Sept 2025",
       description:
-        "Founded and scaled a D2C 3D printing business to ₹23L+ annual revenue. Built Bombay-Terminal — a custom internal print queue management and order automation tool (AI-assisted development, fully in production) that reduced manual overhead by 40%. Developed an AI-assisted STL customisation pipeline and shipped a new product line using GPT-Image-1, Gemini via OpenRouter, and Tripo AI for photo-to-3D-mesh generation — includes a browser-based image generation tool and an automated photo validator with hard-fail/soft-warning logic. Full service blueprint ownership: e-commerce UX (Shopify), order flow, last-mile delivery, and internal ops tooling.",
+        "Founded and scaled a D2C 3D printing business to ₹23L+ annual revenue. Built Bombay-Terminal — a custom internal ops dashboard (order automation, print queue, inventory, multi-printer management) that reduced manual overhead by 40%. Built an AI-assisted STL customisation pipeline. Currently shipping an AI image generation product line using Gemini via OpenRouter and Tripo AI for photo-to-3D-mesh generation, including custom photo validation and a browser-based generation tool. Full service blueprint ownership: e-commerce UX (Shopify), order flow, last-mile delivery, and internal ops tooling.",
     },
     {
       company: "Landor",
@@ -170,7 +170,7 @@ export const RESUME_DATA_YELLOW = {
     "AI Workflow Orchestration",
     "Multi-model Pipelines",
     "API Integrations",
-    "OpenRouter / GPT-Image-1 / Gemini",
+    "Gemini / Image Generation",
     "RAG & Knowledge Systems",
     "Next.js / React / TypeScript",
     "Python / FastAPI",
@@ -207,8 +207,8 @@ export const RESUME_DATA_YELLOW = {
         "Customer ordering platform + AI pipeline for custom 3D-printed figurines. Photo upload → AI image generation (Gemini via OpenRouter) → 3D mesh (Tripo AI) → order. Includes custom photo validation and admin approval workflow. Source is private.",
       logo: ConsultlyLogo,
       link: {
-        label: "github.com/1amrishi",
-        href: "https://github.com/1amrishi/ai-figurine-platform",
+        label: "make.bombayprintlab.com",
+        href: "https://make.bombayprintlab.com",
       },
     },
     {
@@ -240,8 +240,8 @@ export const RESUME_DATA_YELLOW = {
         "Behavioural matching simulation tool exploring how communication style alignment impacts customer-advisor interactions. Built to model service design concepts as interactive software.",
       logo: ConsultlyLogo,
       link: {
-        label: "github.com/1amrishi",
-        href: "https://github.com/1amrishi/empathy-flow-simulator",
+        label: "empathy-flow-simulator.vercel.app",
+        href: "https://empathy-flow-simulator.vercel.app",
       },
     },
     {
