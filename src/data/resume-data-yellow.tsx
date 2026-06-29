@@ -84,7 +84,7 @@ export const RESUME_DATA_YELLOW = {
         "Worked with Landor's diverse portfolio of clients to drive brand strategy and positioning. Gained hands-on experience in how a world-leading brand consultancy approaches strategy, narrative, and client communication — directly applicable to building AI tools for creative agency environments.",
     },
     {
-      company: "Rijkswaterstaat (Ministry of Infrastructure, Netherlands)",
+      company: "Rijkswaterstaat",
       link: "https://rishiag.com/project/plofsluis",
       badges: ["Service Design", "UNESCO"],
       title: "Experience Designer",
