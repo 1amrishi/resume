@@ -191,24 +191,24 @@ export const RESUME_DATA_YELLOW = {
   projects: [
     {
       title: "Bombay-Terminal",
-      techStack: ["Internal Tool", "AI-Assisted Dev", "Automation", "Production"],
+      techStack: ["Next.js", "Supabase", "TypeScript", "Automation", "Production"],
       description:
-        "Custom print queue management and order automation system for Bombay Print Lab. 40% reduction in manual overhead. AI-assisted development, fully in production.",
+        "Internal ops dashboard for Bombay Print Lab — print queue, order auto-import from Shopify, multi-printer management, inventory tracking. 40% reduction in manual overhead. Source is private.",
       logo: ConsultlyLogo,
       link: {
-        label: "bombayprintlab.com",
-        href: "https://bombayprintlab.com",
+        label: "github.com/1amrishi",
+        href: "https://github.com/1amrishi/bombay-terminal-docs",
       },
     },
     {
-      title: "AI Figurine Pipeline",
-      techStack: ["GPT-Image-1", "Gemini", "OpenRouter", "Tripo AI", "Multi-model"],
+      title: "AI Figurine Platform",
+      techStack: ["GPT-Image-1", "Gemini", "OpenRouter", "Tripo AI", "Next.js", "Supabase"],
       description:
-        "Multi-model AI product pipeline for photo-to-3D-mesh generation. Browser-based image generation tool + automated photo validator with hard-fail/soft-warning logic. In production.",
+        "Customer ordering platform + multi-model AI pipeline for custom 3D-printed figurines. Photo upload → AI generation → 3D mesh → order. Automated photo validator with hard-fail/soft-warning logic. Source is private.",
       logo: ConsultlyLogo,
       link: {
-        label: "bombayprintlab.com",
-        href: "https://bombayprintlab.com",
+        label: "github.com/1amrishi",
+        href: "https://github.com/1amrishi/ai-figurine-platform",
       },
     },
     {
