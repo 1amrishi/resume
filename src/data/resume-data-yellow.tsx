@@ -229,8 +229,8 @@ export const RESUME_DATA_YELLOW = {
         "This resume site — built with Next.js and TypeScript, deployed on Vercel, iterated using Claude Code. Multiple role-specific variants at different routes, same codebase.",
       logo: ConsultlyLogo,
       link: {
-        label: "rishiag.vercel.app/yellow",
-        href: "https://rishiag.vercel.app/yellow",
+        label: "rishiag.vercel.app/full",
+        href: "https://rishiag.vercel.app/full",
       },
     },
     {
