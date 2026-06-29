@@ -4,8 +4,9 @@ import {
   MonitoLogo,
   ParabolLogo,
   ClevertechLogo,
+  BimLogo,
 } from "@/images/logos";
-import { LinkedInIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA_YELLOW = {
   name: "Rishi Agarwal",
@@ -14,7 +15,7 @@ export const RESUME_DATA_YELLOW = {
   locationLink: "https://maps.app.goo.gl/XSgSp6gNPUjLzU8s8",
   about: "AI Systems Builder | Agentic Workflows | Founder",
   summary:
-    "I build with Claude, not just use it. Founded Bombay Print Lab (₹23L+ annual revenue) where I've shipped internal automation tooling, an AI-assisted 3D customisation pipeline, and a multi-model image generation product using GPT-Image-1, Gemini, and Tripo AI — all built and deployed in production. Currently at Accenture working on LLM-based AI agent systems at scale. My background in Strategic Design Management means I build things that are technically functional and experientially intentional — which matters in a creative environment. I learn new tools before they're mainstream, and I ship.",
+    "I build with Claude, not just use it. Founded Bombay Print Lab (₹23L+ annual revenue) where I've shipped Bombay-Terminal (internal order automation, 40% overhead reduction), an AI-assisted 3D customisation pipeline, and a live multi-model image generation product using GPT-Image-1, Gemini, and Tripo AI — all in production. Currently at Accenture working on LLM-based AI agent systems at scale. Previously at Landor (global brand strategy) and McCann Worldgroup (creative content for Kotak, Jio-BP, Emami) — I understand creative agency work from the inside. My background in Strategic Design Management means I build things that are technically solid and experientially intentional. I learn new tools before they're mainstream. I ship.",
   avatarUrl:
     "https://github.com/1amrishi/resume/blob/main/src/images/logos/Rishi_Avatar.jpg?raw=true",
   personalWebsiteUrl: "https://rishiag.com",
@@ -22,6 +23,11 @@ export const RESUME_DATA_YELLOW = {
     email: "hello@rishiag.com",
     tel: "+917076267167",
     social: [
+      {
+        name: "GitHub",
+        url: "https://github.com/1amrishi",
+        icon: GitHubIcon,
+      },
       {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/rishiagarwalslg/",
@@ -31,15 +37,15 @@ export const RESUME_DATA_YELLOW = {
   },
   education: [
     {
-      school: "Atlas Skilltech University",
-      degree: "Bachelor's of Design — Strategic Design Management",
+      school: "ATLAS SkillTech University",
+      degree: "Bachelor of Design — Strategic Design Management (Minor: Furniture & Lighting Design)",
       start: "2021",
       end: "2025",
     },
     {
-      school: "Don Bosco School Siliguri",
-      degree: "10+2 (Commerce)",
-      start: "2009",
+      school: "Don Bosco School, Siliguri",
+      degree: "Class 12 — Commerce & Graphic Design",
+      start: "2007",
       end: "2021",
     },
   ],
@@ -51,9 +57,9 @@ export const RESUME_DATA_YELLOW = {
       title: "User Experience Engineering Analyst",
       logo: ParabolLogo,
       start: "Sept 2025",
-      end: "Ongoing",
+      end: "Present",
       description:
-        "Working on LLM-based AI agent systems in production environments — defining product requirements, mapping agent behaviour to real developer workflows, and ensuring agentic tools reduce manual overhead at scale. Direct hands-on exposure to how Claude-based agents behave beyond prototype contexts: edge cases, reliability, and workflow integration with engineering teams.",
+        "Working on LLM-based AI agent systems in production environments — defining product requirements, mapping agent behaviour to real developer workflows, and ensuring agentic tools reduce manual overhead at scale. Direct, daily exposure to how Claude-based agents behave beyond prototype contexts: edge cases, reliability, and integration with engineering teams.",
     },
     {
       company: "Bombay Print Lab",
@@ -61,43 +67,54 @@ export const RESUME_DATA_YELLOW = {
       badges: ["Founder", "AI Products", "Shipped"],
       title: "Founder & Product Lead",
       logo: ConsultlyLogo,
-      start: "2023",
-      end: "Present",
+      start: "Mar 2024",
+      end: "Sept 2025",
       description:
-        "Founded and scaled a D2C 3D printing business to ₹23L+ annual revenue. Built Bombay-Terminal: a custom internal print queue management and order automation tool (AI-assisted, fully in production) that reduced manual overhead by 40%. Developed an AI-assisted STL customisation pipeline and am currently shipping a new product line using GPT-Image-1, Gemini via OpenRouter, and Tripo AI for photo-to-3D-mesh generation — includes a browser-based image generation tool and an automated photo validator with hard-fail/soft-warning logic. Full service blueprint: e-commerce UX, order flow, last-mile delivery, internal ops tooling.",
+        "Founded and scaled a D2C 3D printing business to ₹23L+ annual revenue. Built Bombay-Terminal — a custom internal print queue management and order automation tool (AI-assisted development, fully in production) that reduced manual overhead by 40%. Developed an AI-assisted STL customisation pipeline and shipped a new product line using GPT-Image-1, Gemini via OpenRouter, and Tripo AI for photo-to-3D-mesh generation — includes a browser-based image generation tool and an automated photo validator with hard-fail/soft-warning logic. Full service blueprint ownership: e-commerce UX (Shopify), order flow, last-mile delivery, and internal ops tooling.",
     },
     {
-      company: "Red in the White",
-      link: "https://www.instagram.com/redinthewhite/?hl=en",
-      badges: ["Remote", "Creative Agency"],
-      title: "Motion Designer",
-      logo: ClevertechLogo,
-      start: "2023",
-      end: "2024",
+      company: "Landor",
+      link: "https://www.landor.com",
+      badges: ["Strategy", "Brand", "Global Agency"],
+      title: "Strategy Intern",
+      logo: BimLogo,
+      start: "Jan 2025",
+      end: "June 2025",
       description:
-        "Created motion design and demo content for FinTech and AI clients including Tartan AI, MirrAR, and Flexiloans. Delivered fast-turnaround creative assets for a brand studio environment — directly relevant to working at the intersection of creative and technology.",
+        "Worked with Landor's diverse portfolio of clients to drive brand strategy and positioning. Gained hands-on experience in how a world-leading brand consultancy approaches strategy, narrative, and client communication — directly applicable to building AI tools for creative agency environments.",
+    },
+    {
+      company: "Rijkswaterstaat (Ministry of Infrastructure, Netherlands)",
+      link: "https://rishiag.com/project/plofsluis",
+      badges: ["Service Design", "UNESCO"],
+      title: "Experience Designer",
+      logo: ParabolLogo,
+      start: "Jan 2024",
+      end: "Feb 2024",
+      description:
+        "Redesigned the visitor experience for Plofsluis, a UNESCO World Heritage Site established during WWII. Conducted user research, brainstorming sessions, and proposed service interventions to increase site visibility and engagement. The client approved the proposed interventions for implementation the following year.",
     },
     {
       company: "Runtime Solutions Pvt. Ltd.",
       link: "",
       badges: ["OnSite", "Dubai Client"],
-      title: "Business Design Consultant",
+      title: "Account Manager",
       logo: ParabolLogo,
       start: "June 2024",
       end: "July 2024",
       description:
-        "Delivered pitch decks and digital solutions for a Dubai-based real estate firm. Led website development and managed stakeholder relationships across Pharma, F&B, and Finance sectors.",
+        "Developed pitch decks and digital solutions for clients across Pharmaceuticals, F&B, and Finance. Managed and oversaw a website development project for a prominent Dubai-based real estate firm.",
     },
     {
-      company: "Ministry of Infrastructure (Netherlands)",
-      link: "https://rishiag.com/project/plofsluis",
-      badges: ["Service Design", "UNESCO"],
-      title: "Experience Designer",
-      logo: ParabolLogo,
-      start: "2024",
-      end: "2024",
+      company: "Red in the White",
+      link: "https://www.instagram.com/redinthewhite/?hl=en",
+      badges: ["Remote", "Creative Studio"],
+      title: "Motion Designer",
+      logo: ClevertechLogo,
+      start: "Jan 2023",
+      end: "Nov 2023",
       description:
-        "Redesigned the visitor experience for Plofsluis, a UNESCO World Heritage Site. Conducted user research and proposed service interventions that the client approved for implementation — demonstrating systems thinking applied to complex, real-world environments.",
+        "Created motion design and demo content for FinTech and AI clients including Tartan AI, MirrAR, and Flexiloans. Fast-turnaround creative delivery for a brand studio environment.",
     },
     {
       company: "Meet Interiors",
@@ -105,10 +122,43 @@ export const RESUME_DATA_YELLOW = {
       badges: ["Founder"],
       title: "Founder",
       logo: JojoMobileLogo,
-      start: "2021",
-      end: "2023",
+      start: "May 2021",
+      end: "Jan 2024",
       description:
-        "Built a two-sided marketplace connecting interior designers with clients. Designed the full service flow and platform from scratch — first experience building a product people actually use.",
+        "Built a two-sided marketplace connecting interior designers with clients — directory, portfolio management, and lead generation. Designed the full service flow and platform from scratch.",
+    },
+    {
+      company: "McCann Worldgroup",
+      link: "",
+      badges: ["Creative Agency"],
+      title: "Graphic Design",
+      logo: ClevertechLogo,
+      start: "Mar 2022",
+      end: "Sept 2022",
+      description:
+        "Designed and delivered social media content for major brands including Kotak Mahindra Bank, Jio-BP, and Emami. Experience working inside a global creative agency at speed.",
+    },
+    {
+      company: "ISDI Inferno",
+      link: "",
+      badges: ["Tech", "Events"],
+      title: "Tech Co-ordinator",
+      logo: ParabolLogo,
+      start: "Sept 2022",
+      end: "Nov 2022",
+      description:
+        "Coordinated with vendors, troubleshot technical issues, and provided operational support to staff and faculty during a large-scale college festival.",
+    },
+    {
+      company: "TEDxYouth@Uttorayon",
+      link: "",
+      badges: ["Organiser", "Video Editor"],
+      title: "Organising Member & Video Editor",
+      logo: ParabolLogo,
+      start: "Apr 2020",
+      end: "Sept 2020",
+      description:
+        "Helped organise Siliguri's first online TEDx event with a team of 12. Established the event's social media presence as video editor — filled 100 seats in 48 hours and secured 5 distinguished speakers including the Former Chief Economic Advisor to the Government of Maharashtra.",
     },
   ],
   skills: [
@@ -121,19 +171,29 @@ export const RESUME_DATA_YELLOW = {
     "Multi-model Pipelines",
     "API Integrations",
     "OpenRouter / GPT-Image-1 / Gemini",
+    "RAG & Knowledge Systems",
     "Next.js / React / TypeScript",
-    "Vercel / GitHub",
+    "Python / FastAPI",
+    "Vercel / GitHub / Git",
+    "Supabase",
     "Shopify & E-commerce Automation",
     "Service Design",
-    "Strategic Planning",
+    "Brand Strategy",
     "Figma & Prototyping",
+    "Adobe Creative Suite",
+  ],
+  certifications: [
+    {
+      name: "AI For India",
+      issuer: "GUVI",
+    },
   ],
   projects: [
     {
       title: "Bombay-Terminal",
       techStack: ["Internal Tool", "AI-Assisted Dev", "Automation", "Production"],
       description:
-        "Custom-built print queue management and order automation system for Bombay Print Lab. Reduced manual processing overhead by 40%. Built entirely with AI-assisted development and deployed in production.",
+        "Custom print queue management and order automation system for Bombay Print Lab. 40% reduction in manual overhead. AI-assisted development, fully in production.",
       logo: ConsultlyLogo,
       link: {
         label: "bombayprintlab.com",
@@ -142,9 +202,9 @@ export const RESUME_DATA_YELLOW = {
     },
     {
       title: "AI Figurine Pipeline",
-      techStack: ["GPT-Image-1", "Gemini", "OpenRouter", "Tripo AI", "Multi-agent"],
+      techStack: ["GPT-Image-1", "Gemini", "OpenRouter", "Tripo AI", "Multi-model"],
       description:
-        "Multi-model AI product pipeline for photo-to-3D-mesh generation. Includes a browser-based image generation tool, an automated photo validator with hard-fail/soft-warning logic, and an STL customisation layer. Currently in development.",
+        "Multi-model AI product pipeline for photo-to-3D-mesh generation. Browser-based image generation tool + automated photo validator with hard-fail/soft-warning logic. In production.",
       logo: ConsultlyLogo,
       link: {
         label: "bombayprintlab.com",
@@ -152,21 +212,43 @@ export const RESUME_DATA_YELLOW = {
       },
     },
     {
+      title: "MapTo3D",
+      techStack: ["Python", "FastAPI", "OpenStreetMap", "Trimesh", "Three.js", "STL"],
+      description:
+        "Generates 3D-printable STL files of real locations from OpenStreetMap data. Search any location in India, preview in-browser in 3D, export for printing. Built for Bombay Print Lab.",
+      logo: MonitoLogo,
+      link: {
+        label: "github.com/1amrishi/mapto3d",
+        href: "https://github.com/1amrishi/mapto3d",
+      },
+    },
+    {
       title: "CV Website (this page)",
       techStack: ["Next.js", "TypeScript", "Vercel", "GitHub", "Claude Code"],
       description:
-        "Built and deployed this resume site using Next.js, TypeScript, and Vercel. Maintained via GitHub, developed and iterated using Claude Code. Multiple role-specific variants shipped at different routes — the same way I approach internal tooling.",
+        "This resume site — built with Next.js and TypeScript, deployed on Vercel, iterated using Claude Code. Multiple role-specific variants at different routes, same codebase.",
       logo: ConsultlyLogo,
       link: {
-        label: "rishiag.vercel.app",
+        label: "rishiag.vercel.app/yellow",
         href: "https://rishiag.vercel.app/yellow",
       },
     },
     {
-      title: "Plofsluis Experience",
-      techStack: ["Experience Design", "UNESCO", "Systems Thinking"],
+      title: "Empathy Flow Simulator",
+      techStack: ["React", "TypeScript", "shadcn/ui", "Tailwind"],
       description:
-        "Service design intervention to revitalise a dormant UNESCO heritage site. Approved for implementation — showing I can apply systems thinking to complex creative and real-world problems, not just technical ones.",
+        "Behavioural matching simulation tool exploring how communication style alignment impacts customer-advisor interactions. Built to model service design concepts as interactive software.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "github.com/1amrishi",
+        href: "https://github.com/1amrishi/empathy-flow-simulator",
+      },
+    },
+    {
+      title: "Plofsluis Experience Design",
+      techStack: ["Service Design", "UNESCO", "Systems Thinking"],
+      description:
+        "Service design intervention to revitalise a dormant UNESCO World Heritage Site. Approved for implementation — applying systems thinking to complex real-world creative problems.",
       logo: MonitoLogo,
       link: {
         label: "rishiag.com",

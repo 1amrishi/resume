@@ -12,7 +12,7 @@ import { ProjectCard } from "@/components/project-card";
 export const metadata: Metadata = {
   title: `${RESUME_DATA_YELLOW.name} | ${RESUME_DATA_YELLOW.about}`,
   description:
-    "AI Systems Builder and founder with production experience shipping Claude-based agentic workflows, internal automation tooling, and multi-model AI pipelines. Currently at Accenture on AI agent systems. Based in Mumbai.",
+    "AI Systems Builder with production experience shipping Claude-based agentic workflows, internal automation tooling, and multi-model AI pipelines. Accenture + Bombay Print Lab + Landor. Based in Mumbai.",
 };
 
 export default function Page() {
@@ -37,37 +37,21 @@ export default function Page() {
             </p>
             <div className="flex gap-x-1 pt-1 font-poppins text-sm text-muted-foreground print:hidden">
               {RESUME_DATA_YELLOW.contact.email ? (
-                <Button
-                  className="size-8"
-                  variant="outline"
-                  size="icon"
-                  asChild
-                >
+                <Button className="size-8" variant="outline" size="icon" asChild>
                   <a href={`mailto:${RESUME_DATA_YELLOW.contact.email}`}>
                     <MailIcon className="size-4" />
                   </a>
                 </Button>
               ) : null}
               {RESUME_DATA_YELLOW.contact.tel ? (
-                <Button
-                  className="size-8"
-                  variant="outline"
-                  size="icon"
-                  asChild
-                >
+                <Button className="size-8" variant="outline" size="icon" asChild>
                   <a href={`tel:${RESUME_DATA_YELLOW.contact.tel}`}>
                     <PhoneIcon className="size-4" />
                   </a>
                 </Button>
               ) : null}
               {RESUME_DATA_YELLOW.contact.social.map((social) => (
-                <Button
-                  key={social.name}
-                  className="size-8"
-                  variant="outline"
-                  size="icon"
-                  asChild
-                >
+                <Button key={social.name} className="size-8" variant="outline" size="icon" asChild>
                   <a href={social.url}>
                     <social.icon className="size-4" />
                   </a>
@@ -93,31 +77,28 @@ export default function Page() {
             <AvatarFallback>{RESUME_DATA_YELLOW.initials}</AvatarFallback>
           </Avatar>
         </div>
+
         <Section>
           <h2 className="text-xl font-bold">About</h2>
           <p className="text-pretty font-poppins text-sm text-muted-foreground">
             {RESUME_DATA_YELLOW.summary}
           </p>
         </Section>
+
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
           {RESUME_DATA_YELLOW.work.map((work) => {
             return (
-              <Card key={work.company}>
+              <Card key={`${work.company}-${work.start}`}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
                       <a className="hover:underline" href={work.link}>
                         {work.company}
                       </a>
-
                       <span className="inline-flex gap-x-1">
                         {work.badges.map((badge) => (
-                          <Badge
-                            variant="secondary"
-                            className="align-middle text-xs"
-                            key={badge}
-                          >
+                          <Badge variant="secondary" className="align-middle text-xs" key={badge}>
                             {badge}
                           </Badge>
                         ))}
@@ -127,18 +108,14 @@ export default function Page() {
                       {work.start} - {work.end}
                     </div>
                   </div>
-
-                  <h4 className="font-poppins text-sm leading-none">
-                    {work.title}
-                  </h4>
+                  <h4 className="font-poppins text-sm leading-none">{work.title}</h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs">
-                  {work.description}
-                </CardContent>
+                <CardContent className="mt-2 text-xs">{work.description}</CardContent>
               </Card>
             );
           })}
         </Section>
+
         <Section>
           <h2 className="text-xl font-bold">Education</h2>
           {RESUME_DATA_YELLOW.education.map((education) => {
@@ -146,9 +123,7 @@ export default function Page() {
               <Card key={education.school}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="font-semibold leading-none">
-                      {education.school}
-                    </h3>
+                    <h3 className="font-semibold leading-none">{education.school}</h3>
                     <div className="text-sm tabular-nums text-gray-500">
                       {education.start} - {education.end}
                     </div>
@@ -159,12 +134,24 @@ export default function Page() {
             );
           })}
         </Section>
+
+        <Section>
+          <h2 className="text-xl font-bold">Certifications</h2>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA_YELLOW.certifications.map((cert) => (
+              <Badge key={cert.name} variant="outline">
+                {cert.name} — {cert.issuer}
+              </Badge>
+            ))}
+          </div>
+        </Section>
+
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
-            {RESUME_DATA_YELLOW.skills.map((skill) => {
-              return <Badge key={skill}>{skill}</Badge>;
-            })}
+            {RESUME_DATA_YELLOW.skills.map((skill) => (
+              <Badge key={skill}>{skill}</Badge>
+            ))}
           </div>
         </Section>
 
@@ -188,14 +175,8 @@ export default function Page() {
 
       <CommandMenu
         links={[
-          {
-            url: RESUME_DATA_YELLOW.personalWebsiteUrl,
-            title: "Personal Website",
-          },
-          ...RESUME_DATA_YELLOW.contact.social.map((socialMediaLink) => ({
-            url: socialMediaLink.url,
-            title: socialMediaLink.name,
-          })),
+          { url: RESUME_DATA_YELLOW.personalWebsiteUrl, title: "Personal Website" },
+          ...RESUME_DATA_YELLOW.contact.social.map((s) => ({ url: s.url, title: s.name })),
         ]}
       />
     </main>
