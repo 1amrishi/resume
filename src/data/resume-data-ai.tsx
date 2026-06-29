@@ -177,8 +177,8 @@ export const RESUME_DATA_AI = {
         "Interactive simulation tool modelling how communication style alignment impacts customer-advisor interactions. Designed and built solo.",
       logo: ConsultlyLogo,
       link: {
-        label: "empathy-flow-simulator.vercel.app",
-        href: "https://empathy-flow-simulator.vercel.app",
+        label: "github.com/1amrishi",
+        href: "https://github.com/1amrishi/empathy-flow-simulator",
       },
     },
     {

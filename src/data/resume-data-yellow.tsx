@@ -240,8 +240,8 @@ export const RESUME_DATA_YELLOW = {
         "Behavioural matching simulation tool exploring how communication style alignment impacts customer-advisor interactions. Built to model service design concepts as interactive software.",
       logo: ConsultlyLogo,
       link: {
-        label: "empathy-flow-simulator.vercel.app",
-        href: "https://empathy-flow-simulator.vercel.app",
+        label: "github.com/1amrishi",
+        href: "https://github.com/1amrishi/empathy-flow-simulator",
       },
     },
     {
